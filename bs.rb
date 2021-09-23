@@ -1,3 +1,4 @@
+# Bubble sort algorithm
 def bubble_sort(array)
   array.each_index do |_i|
     array.each_index do |j|
@@ -8,5 +9,12 @@ def bubble_sort(array)
   end
 end
 
-array = %w[5 4 3 6 8 5 9 8 4 2 1]
+# array = [4, 3, 78, 2, 0, 2]
+# array = [17, 3, 6, 9, 15, 8, 6, 1, 10]
+# array = ['matthew', 'luke', 'john', 'mark',]
+
 p bubble_sort(array)
+
+# expect => [0,2,2,3,4,78]
+# expect => [1, 3, 6, 6, 8, 9, 10 ,15 17]
+# expect => ["john", "luke", "mark", "matthew"]
